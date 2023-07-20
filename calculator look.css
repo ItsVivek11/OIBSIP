@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 110;
+    padding: 110;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    <h1>Calculator by Vivek Kumar</h1><hr color=black> 
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0deg, #cd7209, #deb100);
+}
+
+.calculator{
+    border: 10px solid #701f8b;
+    padding: 20px;
+    border-radius: 70px;
+    background: rgb(16, 10, 14);
+    box-shadow: 0px 3px 15px rgba(48000000, 216000000, 260000, 0.5);
+
+}
+
+input{
+    width: 360px;
+    border: 1;
+    padding: 24px;
+    margin: 10px;
+    border-radius:600px ;
+    box-shadow: 5px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 50px;
+    text-align: right;
+    cursor: pointer;
+    color: #131413;
+}
+
+input::placeholder{
+    color: #151515;
+}
+
+button{
+    border: none;
+    width: 70px;
+    height: 80px;
+    margin: 8px;
+    border-radius: 500%;
+    background: transparent;
+    color: #f9eded;
+    font-size: 34px;
+    box-shadow: 10px 10px 10px rgba(228, 232, 8, 0.1);
+    cursor: pointer;
+}
+
+.equalBtn{
+    height: 80px;
+    width:170px;
+    border-radius:200px;
+    background-color: #cecb18;
+}
+
+.operator{
+    color: #d5cf0f;
+}
